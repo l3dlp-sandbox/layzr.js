@@ -1,3 +1,12 @@
+> [!CAUTION]
+> 
+> This library is no longer needed or maintained. Instead, use:
+> 
+> 1. Your framework-specific image component's props.
+> 2. The native [`loading`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/loading) attribute.
+>
+> For custom loading solutions, use the [Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserver). Debounced scroll event listeners, such as the one used by this library, are no longer considered best practice.
+
 # Layzr.js
 
 [![Layzr.js on NPM](https://img.shields.io/npm/v/layzr.js.svg?style=flat-square)](https://www.npmjs.com/package/layzr.js) [![Layzr.js Downloads on NPM](https://img.shields.io/npm/dm/layzr.js.svg?style=flat-square)](https://www.npmjs.com/package/layzr.js) [![jsDelivr Hits](https://data.jsdelivr.com/v1/package/npm/layzr.js/badge)](https://www.jsdelivr.com/package/npm/layzr.js) [![Standard JavaScript Style](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com/)
